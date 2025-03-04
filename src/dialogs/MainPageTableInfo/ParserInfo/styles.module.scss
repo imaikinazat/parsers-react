@@ -1,0 +1,120 @@
+.parser-info-wrapper {
+    padding: 0 15px;
+}
+
+.parser-info-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.parser-info-leftside {
+    padding-right: 15px;
+}
+
+.parser-info-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 15px;
+}
+
+.parser-info-chip {
+    margin-left: 10px;
+}
+
+.parser-info-control-wrapper {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    :first-child{
+        margin-right: 15px;
+    }
+    .text {
+        min-width: 200px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .switch {
+        color: var(--mui-palette-success-main);
+        span {
+            font-weight: 600;
+            margin-right: 0;
+        }
+    }
+}
+
+.parser-info-controls {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 15px;
+}
+
+.parser-info-textfield {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.textfield-float-button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.table-head-cell {
+    background-color: #e3f2fd;
+}
+
+.table-head-cell-icon {
+    background-color: #e3f2fd;
+    width: 70px;
+}
+
+.table-row-cell {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.rightside-wrapper {
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
+}
+
+.rightside-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightside-tenders-info {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.rightside-tender-info {
+    margin-bottom: 7.5px;
+    display: flex;
+}
+
+.rightside-tender-info-label {
+    width: 150px;
+    margin-right: 10px;
+    opacity: .65;
+}
+
+.rightside-note {
+    background-color: #fff9c4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    ul {
+        padding: 0;
+        margin: 0;
+        margin-top: 5px;
+        padding-left: 15px;
+        li{
+            margin-bottom: 7px;
+        }
+    }
+}
